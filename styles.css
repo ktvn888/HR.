@@ -1,0 +1,46 @@
+.container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    color: gray;
+  }
+  
+  .job-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .job-card {
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .job-location {
+    color: gray;
+  }
+  
+  .job-salary {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .btn {
+    margin-top: 10px;
+  }
+  
